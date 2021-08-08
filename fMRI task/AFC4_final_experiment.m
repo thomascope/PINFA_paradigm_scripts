@@ -1,12 +1,12 @@
 
-% A 7T experiment looking at MVPA of word triples in a paradigm where
+% A 7T experiment by TEC looking at MVPA of word quartets in a paradigm where
 % expectations and sensory detail are parametrically varied while clarity
 % ratings are requested from the participant. Designed to use sparse
 % imaging.
 % Changelog since first pilot:
 % Now allocates exactly 3 TRs for response trial.
 % Trialtype recording fixed
-% Vocoder channels now 4 and 16
+% Vocoder channels now 3 and 15
 %
 % NBNBNBNBNB: TO USE IN A REAL SCANNER CHANGE ScannerSynchClass line:
 % data = inputSingleScan(obj.DAQ); data(1:end) = ~data(1:end); % 2-5: buttons 1-4 inverted
